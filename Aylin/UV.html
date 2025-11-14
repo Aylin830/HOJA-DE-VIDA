@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - Aylin Reyes</title>
+
+    <style>
+        /* ===== Reset Básico ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ===== Estilos Globales ===== */
+        body {
+            font-family: "Poppins", Arial, sans-serif;
+            background: #aa8bd6;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 900px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        /* ===== Encabezado ===== */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.4rem;
+            color: #7c3aed;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        /* ===== Secciones ===== */
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #faf6ff;
+            border-left: 5px solid #7c3aed;
+            border-radius: 10px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+            color: #7c3aed;
+            border-bottom: 2px solid #e0caff;
+            padding-bottom: 5px;
+        }
+
+        .skills-list li,
+        .section ul li {
+            margin-bottom: 6px;
+        }
+
+        /* Etiquetas de habilidades */
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills-list li {
+            background: #e9d8fd;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #4b0082;
+            font-weight: bold;
+        }
+
+        /* Tarjetas internas */
+        .card {
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            margin-bottom: 5px;
+        }
+
+        .card strong {
+            color: #4b0082;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            font-size: 0.85rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Información Personal -->
+        <div class="header">
+            <h1>Aylin Reyes Medina</h1>
+            <p>Email: user3000@gmail.com | Tel: 000-000-0000</p>
+            <p>Dirección: xxx-xxx-xxx | Fecha de Nacimiento: 02/10/2008</p>
+        </div>
+
+        <!-- Perfil Profesional -->
+        <div class="section">
+            <h2>Perfil Profesional</h2>
+            <p>
+                Soy una persona apasionada por la gastronomía y el arte culinario. A lo largo de mi vida
+                he desarrollado un profundo interés por la cocina, la creación de nuevos sabores y 
+                el aprendizaje de técnicas que me permitan expresarme a través de los alimentos.
+            </p>
+        </div>
+
+        <!-- Formación Académica -->
+        <div class="section">
+            <h2>Formación Académica</h2>
+
+            <div class="card">
+                <p><strong>Bachiller</strong> – I. E. Federico Carrasquilla (2025)</p>
+            </div>
+
+            <div class="card">
+                <p><strong>Técnico en Programación de Software</strong> – SENA (2024 - 2025)</p>
+            </div>
+        </div>
+
+        <!-- Experiencia Laboral -->
+        <div class="section">
+            <h2>Experiencia Laboral</h2>
+
+            <div class="card">
+                <p><strong>Cajera</strong> – La explosión</p>
+                <p><em>2024 - 2025</em></p>
+                <ul>
+                    <li>Cajera</li>
+                    <li>Atención al cliente</li>
+                   
+                </ul>
+            </div>
+        </div>
+
+        <!-- Habilidades -->
+        <div class="section">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>FRONTEND</li>
+                <li>BACKEND</li>
+            </ul>
+        </div>
+
+        <!-- Idiomas -->
+        <div class="section">
+            <h2>Idiomas</h2>
+            <p>Inglés – Básico</p>
+            <p>Español – Avanzado</p>
+        </div>
+
+        <!-- Certificaciones -->
+        <div class="section">
+            <h2>Certificaciones y Cursos</h2>
+            <ul>
+                <li>Desarrollo de software – 2025</li>
+            </ul>
+        </div>
+
+   
+
+    </div>
+
+</body>
+</html>
